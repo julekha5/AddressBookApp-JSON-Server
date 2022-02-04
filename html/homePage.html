@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <script type="text/JavaScript" src="../js/home.js"></script>
+    <!-- section3 UC1 - delink the AddressBookData class, utility added, AJAXService added -->
+    <!-- <script type="text/JavaScript" src="../js/AddressBookData.js"></script> -->
+    <script type="text/javascript" src="../js/site_properties.js"></script>
+    <script type="text/javascript" src="../js/utility.js"></script>
+    <script type="text/javascript" src="../js/AjaxService.js"></script>
+    <title>AddressBook Home page</title>
+</head>
+
+<body>
+    <!-- UC1 to UC3 Home page UI -->
+    <!-- UC1 section2 logo  and header of home page-->
+    <header class="header-text">
+        <div class="logo-content">
+            <img src="../assets/logo.jpg" alft="logo">
+            <div>
+                <span class="address-text">ADDRESS</span><br>
+                <span class="book-text address-text">BOOK</span>
+            </div>
+        </div>
+    </header>
+    <!-- UC2 section 2 content header -->
+    <div class="main-content">
+        <div class="content-header">
+            <div class="address-book-text">
+                Person Details
+                <div class="person-count">0</div>
+
+                <div onclick="location.href='../html/addPerson.html'" class="add-button">
+                    <div class="plus-icon">
+                        <img src="../assets/icons/add-24px.svg" alt="add">
+                    </div>
+                    <div>Add Person</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- UC3 tabular format -->
+        <table id="display" class="table">
+            <!-- <tr>
+                <th>Fullname</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zip Code</th>
+                <th>Phone Number</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>Julekha M</td>
+                <td>Pune, M.H</td>
+                <td>Pune</td>
+                <td>Maharashtra</td>
+                <td>4545454</td>
+                <td>8989989909</td>
+                <td>
+                    <img alt="edit" src="../assets/icons/create-black-18dp.svg">
+                    <img alt="delete" src="../assets/icons/delete-black-18dp.svg">
+                </td>
+            </tr> -->
+        </table>
+    </div>
+</body>
+
+</html>

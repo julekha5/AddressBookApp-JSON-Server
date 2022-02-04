@@ -1,0 +1,232 @@
+/* UC1 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+.header-text {
+    padding: 12px 0;
+    background-color: #ffffff;
+    font: normal normal bold 18px/20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+}
+
+.logo-content {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
+.logo-content img {
+    margin-right: 0.5%;
+}
+
+.address-text {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #008CFF;
+    letter-spacing: 0px;
+}
+
+.book-text {
+    color: #42515F;
+}
+
+
+/* UC2 */
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    background: #008CFF;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 22px;
+    max-width: 700px;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.close {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #008CFF;
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+    margin-right: 35px;
+    color: #008CFF;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/* UC3*/
+
+.form {
+    width: 100%;
+    padding: 40px 60px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0px auto;
+    height: auto;
+}
+
+label {
+    display: inline-block;
+    min-width: 140px;
+}
+
+.text {
+    font-size: 14px;
+    color: #42525f;
+    opacity: 1;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    resize: vertical;
+    font: normal normal normal 14px "Roboto";
+    letter-spacing: 0px;
+    margin-top: 5px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid#bdbdbd;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+
+/*UC5*/
+
+.btn-row {
+    float: right;
+}
+
+.submit-btn {
+    margin: 0px auto;
+    justify-content: space-between;
+    font-size: 15px;
+    font: normal normal normal 20px/26px;
+    letter-spacing: 0px;
+    opacity: 1;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    padding: 10px 45px;
+    color: #42515F;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.reset-btn {
+    margin: 0px auto;
+    justify-content: space-between;
+    font-size: 15px;
+    font: normal normal normal 20px/26px;
+    letter-spacing: 0px;
+    opacity: 1;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    padding: 10px 45px;
+    color: #42515F;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background: #008CFF;
+}
+
+.reset-btn:hover {
+    color: #fff;
+    background: #658292;
+}
+
+@media only screen and (max-width: 960px) {
+    .cancelButton {
+        margin-left: 0px;
+    }
+    .form {
+        width: 80%;
+        padding: 44px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        margin-top: 10px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .uploadButton {
+        justify-content: flex-start;
+    }
+    .profile-radio-button {
+        flex-flow: wrap;
+    }
+    .submit-reset {
+        width: 100%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .submitButton {
+        margin: 0;
+    }
+    .buttonParent {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

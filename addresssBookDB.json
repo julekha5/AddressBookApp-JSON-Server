@@ -1,0 +1,49 @@
+{
+  "addresssBookDB": [
+    {
+      "_name": "Julekha",
+      "_phone": "+91-9999999999",
+      "_address": "Pune",
+      "_city": "Pune",
+      "_state": "MH ",
+      "_zipcode": "412115",
+      "id": 1
+    },
+    {
+      "_name": "Rohini",
+      "_phone": "+91-8888888888",
+      "_address": "Address",
+      "_city": "Mumbai",
+      "_state": "MH ",
+      "_zipcode": "23546",
+      "id": 2
+    },
+    {
+      "_name": "Shubham",
+      "_phone": "+91-7777777777",
+      "_address": "Punjab",
+      "_city": "Delhi",
+      "_state": "ND ",
+      "_zipcode": "989789",
+      "id": 3
+    },
+    {
+      "_name": "Durgesh",
+      "_phone": "+91-8787878787",
+      "_address": "Nashik",
+      "_city": "Mumbai",
+      "_state": "MH ",
+      "_zipcode": "23435",
+      "id": 4
+    },
+    {
+      "_name": "Neeta",
+      "_phone": "+91-9888888888",
+      "_address": "MP",
+      "_city": "Hyderabad",
+      "_state": "KN ",
+      "_zipcode": "345465",
+      "id": 5
+    }
+  ]
+}

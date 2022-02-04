@@ -1,21 +1,12 @@
 {
   "addresssBookDB": [
     {
-      "_name": "Julekha",
-      "_phone": "+91-9999999999",
-      "_address": "Pune",
-      "_city": "Pune",
-      "_state": "MH ",
-      "_zipcode": "412115",
-      "id": 1
-    },
-    {
       "_name": "Rohini",
       "_phone": "+91-8888888888",
-      "_address": "Address",
+      "_address": "Pune",
       "_city": "Mumbai",
       "_state": "MH ",
-      "_zipcode": "23546",
+      "_zipcode": "2567",
       "id": 2
     },
     {
@@ -44,6 +35,24 @@
       "_state": "KN ",
       "_zipcode": "345465",
       "id": 5
+    },
+    {
+      "_name": "Reeta",
+      "_phone": "+91-9898998989",
+      "_address": "added",
+      "_city": "Banglore",
+      "_state": "AP ",
+      "_zipcode": "45678",
+      "id": 7
+    },
+    {
+      "_name": "Julekha",
+      "_phone": "+91-9987663445",
+      "_address": "Pune city",
+      "_city": "Pune",
+      "_state": "MH ",
+      "_zipcode": "34557",
+      "id": 8
     }
   ]
 }

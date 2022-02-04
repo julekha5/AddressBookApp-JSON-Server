@@ -1,5 +1,4 @@
 let addressBookList;
-
 window.addEventListener('DOMContentLoaded', (event) => {
     if (site_properties.useLocalStorage.match("true")) {
         getDataFromLocalStorage();
@@ -40,8 +39,8 @@ const createInnerHTML = () => {
 
     const headerHtml = `<tr>
     <th>Fullname</th>
-    <th>Phone Number</th>
     <th>Address</th>
+    <th>Phone Number</th>
     <th>City</th>
     <th>State</th>
     <th>Zipcode</th>
@@ -54,8 +53,8 @@ const createInnerHTML = () => {
 
 <tr>
     <td>${addressBookData._name}</td>
-    <td>${addressBookData._phone}</td>
     <td>${addressBookData._address}</td>
+    <td>${addressBookData._phone}</td>
     <td>${addressBookData._city}</td>
     <td>${addressBookData._state}</td>
     <td>${addressBookData._zipcode}</td>
